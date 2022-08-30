@@ -1,7 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Hello from '../components/Hello'
 
+import Hello from '../components/Hello'
+import Number from "../components/Number";
 
 const Home: NextPage = () => {
   return (
@@ -14,11 +15,12 @@ const Home: NextPage = () => {
 
       <main className="container mx-auto flex flex-col items-center justify-center min-h-screen p-4">
         <Hello />
+        <Number />
       </main>
     </>
   );
 };
 
 
-
+// 
 export default Home;
