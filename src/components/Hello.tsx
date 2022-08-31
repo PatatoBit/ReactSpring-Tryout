@@ -12,5 +12,5 @@ export default function Text() {
     onRest: () => set(!flip),
   })
 
-  return <animated.h1 style={props} className="text-6xl font-bold">Hello!</animated.h1>
+  return <animated.h1 style={props} className="text-6xl font-bold">Breathe In..</animated.h1>
 }

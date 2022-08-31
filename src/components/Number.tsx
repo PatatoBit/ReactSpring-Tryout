@@ -7,7 +7,7 @@ export default function Number() {
     reset: true,
     reverse: flip,
     from: { number: 0 },
-    number: 1,
+    number: 100,
     delay: 200,
     onRest: () => set(!flip),
   })
@@ -15,7 +15,7 @@ export default function Number() {
 	return (
 		
 		<animated.div className="font-bold text-6xl text-blue-600">
-			{number.to(n => n.toFixed(2))}
+			{number.to(n => n.toFixed(0))}
 		</animated.div>
 	)
 }
